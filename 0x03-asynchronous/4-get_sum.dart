@@ -18,6 +18,6 @@ Future<double> calculateTotal() async {
         return totalProductPrice;
 
     } catch (e) {
-        return -1;
+        return -1.0;
     }
 }
